@@ -1,25 +1,49 @@
+import { HashRouter as Router, Route } from "react-router-dom";
+import NavTabs from "./components/NavTabs";
+import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
+import Portfolio from "./components/pages/Portfolio";
+
 import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <NavTabs />
+        <Route exact path="/">
+          <About />
+        </Route>
+        <Route exact path="/about">
+          <About />
+        </Route>
+        <Route exact path="/portfolio">
+          <Portfolio />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+      </div>
+    </Router>
   );
 }
 
 export default App;
+
+// Updated portfolio featuring 6 total projects
+
+// A Header component that appears on multiple pages
+
+// A single Project component that will be used multiple times on a single page
+
+// Navigation with React Router, dynamic rendering, or another third part router
+
+// A Footer component that appears on multiple pages
+
+// Update GitHub profile with pinned repositories featuring those same projects
+
+// Deploy this site to GitHub Pages using the Create React App docs for deployment.
+
+// Important: Be sure to push your codebase to GitHub and NOT your built and deployed code. Ensure this happens by following the above instructions and using the gh-pages branch to host the deployed application's code.
