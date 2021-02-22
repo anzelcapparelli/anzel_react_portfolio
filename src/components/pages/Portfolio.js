@@ -4,7 +4,7 @@ import Project from "../Project/";
 function Portfolio() {
 
   const projectsArr = [
-
+        
     {
       name: "Marvel Hero-Finder",
       imgSrc: "/assets/images/marvel.jpg",
@@ -12,12 +12,40 @@ function Portfolio() {
       githubHref: "https://github.com/anzelcapparelli/marvelHeroFinder/"
     },
 
+    {
+      name: "The Brew Budz",
+      imgSrc: "assets/images/bb-landing.jpg",
+      deployedHref: "https://thebrewbudz.herokuapp.com/landing",
+      githubHref: "https://github.com/Guled06/the-brew-budz"
+    },
+    
+    {
+      name: "Code Quiz",
+      imgSrc: "./assets/images/coding_quiz.png",
+      deployedHref: "https://anzelcapparelli.github.io/code_quiz/",
+      githubHref: "https://github.com/anzelcapparelli/code_quiz"
+    },
+
+    {
+      name: "Eat-Da-Burger!",
+      imgSrc: "assets/images/burgerLaunch.jpg",
+      deployedHref: "https://immense-everglades-88150.herokuapp.com/",
+      githubHref: "https://github.com/anzelcapparelli/burger"
+    }
+
     // {
     //   name: ,
     //   imgSrc: ,
     //   deployedHref: ,
     //   githubHref:
-    // }
+    // },
+
+    // {
+    //   name: ,
+    //   imgSrc: ,
+    //   deployedHref: ,
+    //   githubHref:
+    // },
 
   ]
 
@@ -27,7 +55,9 @@ function Portfolio() {
     <div>
       <h1>Portfolio Page</h1>
 
-      <Project {...projectsArr[0]} />
+{projectsArr.map(projArrRow => 
+      <Project {...projArrRow} key={projArrRow.name} />
+  )}
 
     </div>
   );
