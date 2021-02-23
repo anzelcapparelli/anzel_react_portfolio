@@ -3,14 +3,32 @@ import React from "react";
 function Contact() {
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+      <div class="row justify-content-center">
+        <div class="col ml-2">
+          <header>
+            <h1>Contact information</h1>
+          </header>
+          <hr />
+        </div>
+      </div>
+      <div class="row mb-5 justify-content-center">
+
+        <div class="col-md-auto">
+          <div class="parentFade">
+            <h3 class="mb-0"><span class="fade">Edward</span><span class="shifter"> Anzel Capparelli</span>
+            </h3>
+            <p class="half-size preferName">Preferred Name</p>
+            <p class="half-size fullName">Full Name</p>
+          </div>
+
+
+          <div><strong>Email: </strong><a href="mailto:anzelcapparelli@gmail.com">anzelcapparelli@gmail.com</a></div>
+          <div><strong>Phone (text or call): </strong><a href="tel:6199521941">(619) 952-1941</a></div>
+          <div><strong>Resume (PDF): </strong><a href="web_dev_resume.pdf" target="_blank">updated Feb 4, 2021</a>
+
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

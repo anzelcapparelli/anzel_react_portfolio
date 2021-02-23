@@ -3,6 +3,8 @@ import NavTabs from "./components/NavTabs";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
+import Jumbotron from "./components/Header";
+import Footer from "./components/Footer.js";
 
 import logo from './logo.svg';
 import './App.css';
@@ -12,11 +14,10 @@ function App() {
   return (
     <Router>
       <div>
-        <NavTabs />
-        <Route exact path="/">
-          <About />
-        </Route>
-        <Route exact path="/about">
+        <Jumbotron>
+          <NavTabs />
+        </Jumbotron>
+        <Route exact path={["/", "/about"]}>
           <About />
         </Route>
         <Route exact path="/portfolio">
@@ -26,6 +27,9 @@ function App() {
           <Contact />
         </Route>
       </div>
+
+      <Footer />
+
     </Router>
   );
 }
