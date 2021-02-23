@@ -7,28 +7,28 @@ function Portfolio() {
         
     {
       name: "Marvel Hero-Finder",
-      imgSrc: "assets/images/marvel.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/assets/images/marvel.jpg",
       deployedHref: "https://anzelcapparelli.github.io/marvelHeroFinder/",
       githubHref: "https://github.com/anzelcapparelli/marvelHeroFinder/"
     },
 
     {
       name: "The Brew Budz",
-      imgSrc: "assets/images/bb-landing.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/assets/images/bb-landing.jpg",
       deployedHref: "https://thebrewbudz.herokuapp.com/landing",
       githubHref: "https://github.com/Guled06/the-brew-budz"
     },
     
     {
       name: "Code Quiz",
-      imgSrc: "./assets/images/coding_quiz.png",
+      imgSrc: process.env.PUBLIC_URL + "/assets/images/coding_quiz.png",
       deployedHref: "https://anzelcapparelli.github.io/code_quiz/",
       githubHref: "https://github.com/anzelcapparelli/code_quiz"
     },
 
     {
       name: "Eat-Da-Burger!",
-      imgSrc: "assets/images/burgerLaunch.jpg",
+      imgSrc: process.env.PUBLIC_URL + "/assets/images/burgerLaunch.jpg",
       deployedHref: "https://immense-everglades-88150.herokuapp.com/",
       githubHref: "https://github.com/anzelcapparelli/burger"
     }

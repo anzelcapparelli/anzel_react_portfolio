@@ -15,7 +15,7 @@ function About() {
     <div className="row justify-content-start">
       <div className="col-md-3">
         {/* <img src="./assets/images/mosaicV2_200x200.jpg" className="img-fluid" alt="Mosaic of Anzel" /> */}
-        <img src="./assets/images/mosaicV2_200x200.jpg" className="img-fluid" alt="Mosaic of Anzel" />
+        <img src={process.env.PUBLIC_URL + "/assets/images/mosaicV2_200x200.jpg"} className="img-fluid" alt="Mosaic of Anzel" />
       </div>
       <div className="col-md-9">
         <blockquote className="blockquote">
