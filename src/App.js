@@ -8,7 +8,6 @@ import Footer from "./components/Footer.js";
 
 import './App.css';
 
-
 function App() {
   return (
     <Router>
@@ -30,6 +29,7 @@ function App() {
       </div>
 
       <Footer />
+      {/* <img src="assets/images/marvel.jpg" alt="marvel" /> */}
 
     </Router>
   );
