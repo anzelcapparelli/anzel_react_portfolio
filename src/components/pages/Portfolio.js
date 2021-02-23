@@ -7,7 +7,7 @@ function Portfolio() {
         
     {
       name: "Marvel Hero-Finder",
-      imgSrc: "/assets/images/marvel.jpg",
+      imgSrc: "./public/assets/images/marvel.jpg",
       deployedHref: "https://anzelcapparelli.github.io/marvelHeroFinder/",
       githubHref: "https://github.com/anzelcapparelli/marvelHeroFinder/"
     },
@@ -48,8 +48,6 @@ function Portfolio() {
     // },
 
   ]
-
-
 
   return (
     <div>

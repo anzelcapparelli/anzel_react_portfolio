@@ -21,7 +21,7 @@ function Contact() {
       </div>
       <div><strong>Email: </strong><a href="mailto:anzelcapparelli@gmail.com">anzelcapparelli@gmail.com</a></div>
       <div><strong>Phone (text or call): </strong><a href="tel:6199521941">(619) 952-1941</a></div>
-      <div className="pb-5"><strong>Resume (PDF): </strong><a href="web_dev_resume.pdf" target="_blank">updated Feb 4, 2021</a>
+      <div className="pb-5"><strong>Resume (PDF): </strong><a href="assets/images/resume22Feb2021.pdf" rel="noreferrer" target="_blank">updated Feb 22, 2021</a>
       </div>
     </div>
   </div>
