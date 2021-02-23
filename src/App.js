@@ -3,10 +3,9 @@ import NavTabs from "./components/NavTabs";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
-import Jumbotron from "./components/Header";
+import Header from "./components/Header/";
 import Footer from "./components/Footer.js";
 
-import logo from './logo.svg';
 import './App.css';
 
 
@@ -14,18 +13,20 @@ function App() {
   return (
     <Router>
       <div>
-        <Jumbotron>
+        <Header>
           <NavTabs />
-        </Jumbotron>
-        <Route exact path={["/", "/about"]}>
-          <About />
-        </Route>
-        <Route exact path="/portfolio">
-          <Portfolio />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
+        </Header>
+        <div className="bg-white">
+          <Route exact path={["/", "/about"]}>
+            <About />
+          </Route>
+          <Route exact path="/portfolio">
+            <Portfolio />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+        </div>
       </div>
 
       <Footer />
@@ -37,14 +38,6 @@ function App() {
 export default App;
 
 // Updated portfolio featuring 6 total projects
-
-// A Header component that appears on multiple pages
-
-// A single Project component that will be used multiple times on a single page
-
-// Navigation with React Router, dynamic rendering, or another third part router
-
-// A Footer component that appears on multiple pages
 
 // Update GitHub profile with pinned repositories featuring those same projects
 
