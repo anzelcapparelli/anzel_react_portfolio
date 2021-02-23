@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/anzel_react_portfolio/static/css/main.4a28d3c2.chunk.css",
+    "main.js": "/anzel_react_portfolio/static/js/main.c418ec00.chunk.js",
+    "main.js.map": "/anzel_react_portfolio/static/js/main.c418ec00.chunk.js.map",
+    "runtime-main.js": "/anzel_react_portfolio/static/js/runtime-main.794f0efd.js",
+    "runtime-main.js.map": "/anzel_react_portfolio/static/js/runtime-main.794f0efd.js.map",
+    "static/css/2.658248ec.chunk.css": "/anzel_react_portfolio/static/css/2.658248ec.chunk.css",
+    "static/js/2.3207193a.chunk.js": "/anzel_react_portfolio/static/js/2.3207193a.chunk.js",
+    "static/js/2.3207193a.chunk.js.map": "/anzel_react_portfolio/static/js/2.3207193a.chunk.js.map",
+    "static/js/3.bdc522e3.chunk.js": "/anzel_react_portfolio/static/js/3.bdc522e3.chunk.js",
+    "static/js/3.bdc522e3.chunk.js.map": "/anzel_react_portfolio/static/js/3.bdc522e3.chunk.js.map",
+    "index.html": "/anzel_react_portfolio/index.html",
+    "static/css/2.658248ec.chunk.css.map": "/anzel_react_portfolio/static/css/2.658248ec.chunk.css.map",
+    "static/css/main.4a28d3c2.chunk.css.map": "/anzel_react_portfolio/static/css/main.4a28d3c2.chunk.css.map",
+    "static/js/2.3207193a.chunk.js.LICENSE.txt": "/anzel_react_portfolio/static/js/2.3207193a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.794f0efd.js",
+    "static/css/2.658248ec.chunk.css",
+    "static/js/2.3207193a.chunk.js",
+    "static/css/main.4a28d3c2.chunk.css",
+    "static/js/main.c418ec00.chunk.js"
+  ]
+}
