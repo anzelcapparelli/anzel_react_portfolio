@@ -11,7 +11,7 @@ function Contact() {
       <hr />
     </div>
   </div>
-  <div className="row mb-5 justify-content-center">
+  <div className="row mb-5 mt-5 justify-content-center contactInfo">
     <div className="col-md-auto">
       <div className="parentFade">
         <h3 className="mb-0"><span className="fade">Edward</span><span className="shifter"> Anzel Capparelli</span>

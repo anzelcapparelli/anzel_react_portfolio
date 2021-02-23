@@ -40,8 +40,8 @@ function About() {
         apps on the web, where they can be widely used, viewed, and appreciated, and my desire to be a web
         designer, although new, has been the strongest motivation that I have had in half a decade. I know
         I'm up against those who have more coding experience than me, but I have the courage to go for it
-        anyways. After all, everyone had to start somewhere, and my dedication to keep learning and to grow
-        in areas other than strictly coding will lead me into becoming what I believe will be a succesfully
+        anyways. After all, everyone has to start somewhere, and my dedication to keep learning and to grow
+        in areas other than strictly coding will lead me into becoming what I believe will be a succesful
         web developer.
       </p>
     </div>
